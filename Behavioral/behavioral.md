@@ -1,0 +1,1 @@
+Behavioral design patterns are concerned with the communication between objects.
