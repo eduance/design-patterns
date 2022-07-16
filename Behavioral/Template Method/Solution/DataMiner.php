@@ -33,6 +33,8 @@ abstract class DataMiner
     protected $analysis;
 
     /**
+     * This is the template method, which defines the skeleton of the algorithm.
+     *
      * We got two steps: abstract steps which must be implemented by every subclass.
      * Optional steps which already have some default implementation, but can still be overridden if needed.
      * A hook is also an option: a step with an empty body, hooks are placed before and after crucial steps of algorithms,
