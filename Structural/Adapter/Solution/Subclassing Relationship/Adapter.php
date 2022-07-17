@@ -1,7 +1,12 @@
 <?php
 
-namespace Eduance\Structural\Adapter\Solution;
+namespace Eduance\Structural\Adapter\Solution\Subclassing;
 
+/**
+ * This is usually called a class adapter which extends the target class.
+ *
+ *
+ */
 class Adapter extends MyClass implements TargetInterface
 {
     public function helloWithMail()

@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduance\Structural\Adapter\Solution;
+namespace Eduance\Structural\Adapter\Solution\Contains;
 
 /**
  * What if you are unable to modify this file? (e.g. it being in the vendor folder..)

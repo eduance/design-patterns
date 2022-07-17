@@ -1,4 +1,6 @@
 <?php
 
-$class = new \Eduance\Structural\Adapter\Solution\Adapter(new MyClass());
+namespace Eduance\Structural\Adapter\Solution\Subclassing;
+
+$class = new \Eduance\Structural\Adapter\Solution\Subclassing\Adapter(new MyClass());
 

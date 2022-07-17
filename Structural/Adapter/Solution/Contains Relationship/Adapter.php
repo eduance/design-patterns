@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduance\Structural\Adapter\Solution;
+namespace Eduance\Structural\Adapter\Solution\Contains;
 
 class Adapter implements TargetInterface
 {
