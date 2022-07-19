@@ -10,10 +10,6 @@ classes into two separate hierarchies which can be developed independently of ea
    the ones that the abstraction needs in the general implementation interface.
 4. For all platforms in your domain create concrete implementation classes, but make sure they all follow the implementation
    interface.
-   
-   
-   175 Structural Design Patterns / Bridge #86689
-   brandon@eduance.io (#86689)
 5. Inside the abstraction class, add a reference field for the
    implementation type. The abstraction delegates most of the
    work to the implementation object that’s referenced in
