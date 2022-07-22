@@ -2,6 +2,9 @@
 
 /**
  * A doubly linked list data structure without the PHP interfaces, for educational purpose.
+ * If you want to use a Linked List, use the SPL class.
+ * @see https://www.php.net/manual/en/class.spldoublylinkedlist.php
+ *
  * Inspired by William Fiset.
  *
  * @author Brandon Eichhorn
