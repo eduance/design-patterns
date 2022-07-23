@@ -17,11 +17,21 @@ class Queue
         $this->queue($firstElem);
     }
 
+    /**
+     * Determine whether the queue is empty.
+     *
+     * @return bool
+     */
     public function isEmpty(): bool
     {
         return $this->list->count() === 0;
     }
 
+    /**
+     * Get the size of the queue.
+     *
+     * @return int
+     */
     public function size(): int
     {
         return $this->list->count();
@@ -40,7 +50,9 @@ class Queue
     }
 
     /**
+     * Queue an element.
      *
+     * @return void
      */
     public function queue($elem)
     {
@@ -48,6 +60,8 @@ class Queue
     }
 
     /**
+     * Get the Doubly Linked List.
+     *
      * @return SplDoublyLinkedList
      */
     public function get(): SplDoublyLinkedList
@@ -56,7 +70,7 @@ class Queue
     }
 
     /**
-     * Dequeue an element from the front of the queue.
+     * Dequeue an element from back of the queue.
      *
      * @throws Exception
      */
@@ -66,6 +80,6 @@ class Queue
             throw new Exception("Queue is empty");
         }
 
-        $this->list->pop();
+        $this->list->offsetUnset(0);
     }
 }
